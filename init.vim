@@ -41,18 +41,15 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
-Plug 'vim-scripts/grep.vim'
-Plug 'vim-scripts/CSApprox'
 Plug 'Raimondi/delimitMate'
 Plug 'majutsushi/tagbar'
 Plug 'dense-analysis/ale'
-Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'stephpy/vim-yaml'
 Plug 'valloric/youcompleteme'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim' " favourite plugin
 Plug 'tomasr/molokai'
 Plug 'dracula/vim', { 'name': 'dracula' }
 Plug 'morhetz/gruvbox'
@@ -484,6 +481,12 @@ vnoremap K :m '<-2<CR>gv=gv
 
 "" Open current line on GitHub
 nnoremap <Leader>o :.Gbrowse<CR>
+
+" Find files using Telescope command-line sugar.
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 "*****************************************************************************
 "" Custom configs
