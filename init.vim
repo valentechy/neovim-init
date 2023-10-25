@@ -45,7 +45,6 @@ Plug 'majutsushi/tagbar'
 Plug 'dense-analysis/ale'
 Plug 'stephpy/vim-yaml'
 Plug 'valloric/youcompleteme'
-Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim' " favourite plugin
