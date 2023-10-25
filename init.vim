@@ -39,7 +39,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'majutsushi/tagbar'
 Plug 'dense-analysis/ale'
 Plug 'stephpy/vim-yaml'
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme' " It slow init vim
 Plug 'hrsh7th/nvim-cmp'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim' " favourte plugin
