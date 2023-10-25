@@ -50,8 +50,6 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim' " favourite plugin
-Plug 'tomasr/molokai'
-Plug 'dracula/vim', { 'name': 'dracula' }
 Plug 'morhetz/gruvbox'
 
 
