@@ -72,7 +72,7 @@ require('lazy').setup({
   'tpope/vim-rhubarb',
 
   -- Detect tabstop and shiftwidth automatically
-  'tpope/vim-sleuth',
+  --'tpope/vim-sleuth',
 
   -- NOTE: This is where your plugins related to LSP can be installed.
   --  The configuration is done below. Search for lspconfig to find it below.
@@ -236,7 +236,11 @@ require('lazy').setup({
 -- NOTE: You can change these options as you wish!
 
 -- Set highlight on search
-vim.o.hlsearch = false
+vim.o.hlsearch = true
+vim.o.tabstop = 2
+vim.o.softtabstop = 0
+vim.o.shiftwidth = 2
+vim.opt.expandtab = true
 
 -- Make line numbers default
 vim.wo.number = true
